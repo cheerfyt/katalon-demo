@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>suite-baidu</description>
-   <name>suite-baidu</name>
+   <description>baidu-bing</description>
+   <name>baidu-bing</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,9 +9,15 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>31103c45-98ca-48ae-abf3-242272e863c0</testSuiteGuid>
+   <testSuiteGuid>d805a4f5-4549-4898-8791-13041b973c7e</testSuiteGuid>
    <testCaseLink>
-      <guid>c3271433-f15d-4fa8-a148-26bbf6542b9d</guid>
+      <guid>c2490f5b-c549-4be3-86f2-f88bb00d1048</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/bing</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>29cdb699-c415-4c6b-b3de-a3b8086a69b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/baidu</testCaseId>
