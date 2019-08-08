@@ -15,17 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cn.bing.com/')
+WebUI.navigateToUrl('https://blog.joyfyt.com/')
 
-WebUI.setText(findTestObject('Object Repository/bing/Page_ Bing  -/input__q'), 'worktile')
-
-WebUI.sendKeys(findTestObject('Object Repository/bing/Page_ Bing  -/input__q'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/bing/Page_worktile -  Bing/a_Worktile'))
-
-WebUI.switchToWindowTitle('Worktile - Work together and get more done')
-
-WebUI.click(findTestObject('Object Repository/bing/Page_Worktile - Work together and get more done/img'))
+WebUI.click(findTestObject('Object Repository/blog/Page_Nothing here/a_Katalon Autotest'))
 
 WebUI.closeBrowser()
 
