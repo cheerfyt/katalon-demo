@@ -1,64 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>em_Worktile</name>
+   <name>a_More information</name>
    <tag></tag>
-   <elementGuidId>8e44c2eb-9313-4849-becd-61b99c86a54f</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//div[@id='1']/h3/a/em)[2]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>187c8ebf-358b-4d0e-a14e-aec978f7876f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>em</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://www.iana.org/domains/example</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Worktile</value>
+      <value>More information...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content_left&quot;)/div[@id=&quot;1&quot;]/h3[@class=&quot;t c-gap-bottom-small&quot;]/a[1]/em[1]</value>
+      <value>/html[1]/body[1]/div[1]/p[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>(//div[@id='1']/h3/a/em)[2]</value>
+      <value>//a[contains(text(),'More information...')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Worktile'])[5]/preceding::em[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Example Domain'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Worktile'])[6]/preceding::em[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]/body[1]/div[1]/p[2]/a[1]'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://www.iana.org/domains/example']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/h3/a/em</value>
+      <value>//a</value>
    </webElementXpaths>
 </WebElementEntity>

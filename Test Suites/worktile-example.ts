@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>baidu-blog</description>
-   <name>baidu-blog</name>
+   <description>katalon demo</description>
+   <name>worktile-example</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,17 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>854730a6-b2c7-4ade-991d-14d82306e8f9</testSuiteGuid>
+   <testSuiteGuid>521d4afc-1b27-4d84-9a24-5cf9e3557d8c</testSuiteGuid>
    <testCaseLink>
-      <guid>02a26d37-fe5d-40fa-8966-178ea966b967</guid>
+      <guid>d5fb8f08-85ae-41d8-8bd1-8a0eec1f9ea9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/blog</testCaseId>
+      <testCaseId>Test Cases/worktile</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a153319-14d2-4af9-9cd6-6f7315045169</guid>
+      <guid>1e1c9d9d-1c84-4d45-92e7-aa2af85e8c87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/baidu</testCaseId>
+      <testCaseId>Test Cases/example</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -12,16 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.baidu.com/')
+WebUI.navigateToUrl('https://worktile.com/en-us/')
 
-WebUI.setText(findTestObject('Object Repository/baidu/Page_work_/input__wd'), 'worktile')
-
-WebUI.setText(findTestObject('Object Repository/baidu/Page_worktile_/input_worktile_wd'), 'worktile')
-
-WebUI.click(findTestObject('Object Repository/baidu/Page_worktile_/em_Worktile'))
+WebUI.click(findTestObject('Object Repository/worktile.com/Page_Worktile - Work together and get more done/a_Solution'))
 
 WebUI.closeBrowser()
 
